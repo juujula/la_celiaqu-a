@@ -1,0 +1,119 @@
+@font-face{ 
+font-family:"Letters for Learners"; 
+src: url("font/Letters for Learners.ttf"); 
+
+}
+
+@font-face{ 
+font-family:"Clarendon Lt BT"; 
+src: url("font/Clarendon Lt BT Light.ttf"); 
+
+}
+@font-face{ 
+font-family:"Yu Gothic"; 
+src: url("font/YuGothB.ttc"); 
+
+}
+body{ 
+background-color: #f2e1f7;/*#f7f7e1; /*#f5e98c;*/
+
+}
+h1{color:#364785;/*#f2e1f7; /*#65616b*/
+text-align: center; 
+font-size: 35px;
+text-shadow: 3px 2px 3px white; 
+border-style: inset; 
+
+}
+p{
+margin-left: 4%; 
+line-height: 25px;
+font-size: 30px; 
+font-family: "Letters for Learners";
+
+}
+img{ 
+display:block; 
+margin: auto;
+margin-bottom:3%;
+box-shadow: 2px 3px 2px black; 
+margin-top: 3%; 
+
+}
+h2{ 
+color: #364785; /*#65616b;*/
+margin-left: 2%; 
+font-family: "Clarendon Lt BT";
+font-size: 27px; 
+}
+h3{
+color: #364785;/*#65616b;*/
+margin-left: 2%;
+font-family:"Clarendon Lt BT";
+font-size: 25px;
+
+} 
+h4{
+color:#364785; /*#65616b;*/
+margin-left: 2%;
+font-family:"Clarendon Lt BT";
+font-size: 20px;
+
+} 
+ol{ 
+color:#9a99ba/*#8e8ad1/*darkblue*/; 
+margin-left: 5%; 
+font-size: 18px; 
+line-height:25px ;
+font-family: "Yu Gothic";
+
+}
+ul{ 
+margin-left:5%; 
+font-size:20px;
+line-height:25px;
+font-family: "Yu Gothic";
+color:#b38daf/*#9a99ba/*#8e8ad1 /*darkblue;*/
+}
+table{
+margin-left: 3%; 
+color: grey; 
+margin-top: 2%;
+} 
+a:link{ 
+color: grey; 
+font-size:20px;
+}
+a:hover{ 
+color: purple; 
+background-color: white;
+font-size: 25px; 
+}
+a:visited{
+	color: grey; 
+}
+
+a:visited:hover{
+	color: purple; 
+    background-color: white;
+    font-size: 20px; 
+}
+
+.img1{
+ margin-left:3%; 
+ box-shadow: 2px 3px 2px; 
+ border-bottom-width : 3px;
+ border-radius:20px;
+ display:inline;
+}  
+.img2{
+ box-shadow: 2px 3px 2px; 
+ border-bottom-width : 3px;
+ border-radius:20px;
+ display:inline; 
+ display: block;
+}
+.galeria:link, .galeria:visited, .galeria:hover{ 
+background-color: transparent;
+border-style:none;
+}
